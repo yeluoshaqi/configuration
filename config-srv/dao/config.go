@@ -3,7 +3,7 @@ package dao
 import (
 	"errors"
 
-	"admin-conf/config-srv/model"
+	"github.com/yeluoshaqi/config/config-srv/model"
 )
 
 func (d *Dao) UpdateConfig(appName, clusterName, namespaceName, value string) error {

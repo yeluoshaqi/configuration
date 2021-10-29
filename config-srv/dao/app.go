@@ -2,7 +2,7 @@ package dao
 
 import (
 	"github.com/jinzhu/gorm"
-	"admin-conf/config-srv/model"
+	"github.com/yeluoshaqi/config/config-srv/model"
 )
 
 func (d *Dao) AppExist(appName string) bool {

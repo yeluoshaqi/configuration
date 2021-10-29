@@ -1,7 +1,7 @@
 package config
 
 import (
-	"admin-conf/config-srv/dao"
+	"github.com/yeluoshaqi/config/config-srv/dao"
 )
 
 

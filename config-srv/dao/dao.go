@@ -2,8 +2,8 @@ package dao
 
 import (
 	"github.com/jinzhu/gorm"
-	"admin-conf/config-srv/conf"
-	"admin-conf/config-srv/model"
+	"github.com/yeluoshaqi/config/config-srv/conf"
+	"github.com/yeluoshaqi/config/config-srv/model"
 )
 
 // Dao def

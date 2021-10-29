@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"admin-conf/api/config"
+	"github.com/yeluoshaqi/config/api/config"
 )
 
 func CreateNamespace(c *gin.Context) {

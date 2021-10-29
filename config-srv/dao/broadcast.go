@@ -2,7 +2,7 @@ package dao
 
 import (
 	"github.com/jinzhu/gorm"
-	"admin-conf/config-srv/model"
+	"github.com/yeluoshaqi/config/config-srv/model"
 )
 
 func broadcastNewestConfig(tx *gorm.DB, appName, clusterName, namespaceName string) error {

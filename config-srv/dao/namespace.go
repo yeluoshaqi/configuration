@@ -3,7 +3,7 @@ package dao
 import (
 	"errors"
 
-	"admin-conf/config-srv/model"
+	"github.com/yeluoshaqi/config/config-srv/model"
 )
 
 func (d *Dao) NamespaceExist(appName, clusterName, namespaceName string) bool {
