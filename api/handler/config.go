@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/yeluoshaqi/config/api/config"
-	"github.com/yeluoshaqi/config/api/format"
+	"github.com/yeluoshaqi/configuration/api/config"
+	"github.com/yeluoshaqi/configuration/api/format"
 )
 
 type ErrorResponse struct {

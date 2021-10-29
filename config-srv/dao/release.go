@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/yeluoshaqi/config/config-srv/model"
+	"github.com/yeluoshaqi/configuration/config-srv/model"
 )
 
 const (

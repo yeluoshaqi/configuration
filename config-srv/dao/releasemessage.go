@@ -2,7 +2,7 @@ package dao
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/yeluoshaqi/config/config-srv/model"
+	"github.com/yeluoshaqi/configuration/config-srv/model"
 )
 
 func (d *Dao) CreateReleaseMessage(appName, clusterName, namespaceName, format, value string) error {

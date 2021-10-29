@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/yeluoshaqi/config/api/handler"
-	"github.com/yeluoshaqi/config/config-srv/conf"
-	"github.com/yeluoshaqi/config/config-srv/dao"
+	"github.com/yeluoshaqi/configuration/api/handler"
+	"github.com/yeluoshaqi/configuration/config-srv/conf"
+	"github.com/yeluoshaqi/configuration/config-srv/dao"
 	"github.com/gin-gonic/gin"
 )
 
