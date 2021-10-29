@@ -1,6 +1,8 @@
 package main
 
 import (
+	_ "github.com/go-sql-driver/mysql"
+
 	"github.com/yeluoshaqi/configuration/api/handler"
 	"github.com/yeluoshaqi/configuration/config-srv/conf"
 	"github.com/yeluoshaqi/configuration/config-srv/dao"
